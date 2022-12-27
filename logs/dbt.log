@@ -1,13 +1,14 @@
 
 
-============================== 2022-12-27 16:04:48.031250 | 9d67578a-b01f-4ad4-ba44-9d3c6c3c221f ==============================
-[0m16:04:48.031256 [info ] [MainThread]: Running with dbt=1.3.1
-[0m16:04:48.031435 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/kevinleiva/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'Learn-DBT', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
-[0m16:04:48.031512 [debug] [MainThread]: Tracking: tracking
-[0m16:04:48.036730 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108192550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1081927f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108192730>]}
-[0m16:05:04.840860 [debug] [MainThread]: Starter project path: /opt/homebrew/Cellar/dbt-postgres/1.3.1/libexec/lib/python3.9/site-packages/dbt/include/starter_project
-[0m16:05:06.592152 [info ] [MainThread]: 
-Your new dbt project "Learn_dbt" was created!
+============================== 2022-12-27 16:34:52.627546 | 1a008c13-f5fd-4d17-92b2-4eb38839fa25 ==============================
+[0m16:34:52.627550 [info ] [MainThread]: Running with dbt=1.3.1
+[0m16:34:52.627734 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/kevinleiva/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'Learn-DBT', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m16:34:52.627799 [debug] [MainThread]: Tracking: tracking
+[0m16:34:52.636303 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b46ff40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b440970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b440e20>]}
+[0m16:35:01.336209 [debug] [MainThread]: Starter project path: /opt/homebrew/Cellar/dbt-snowflake/1.3.0/libexec/lib/python3.9/site-packages/dbt/include/starter_project
+[0m16:37:06.445419 [info ] [MainThread]: Profile Learn_DBT written to /Users/kevinleiva/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:37:06.445750 [info ] [MainThread]: 
+Your new dbt project "Learn_DBT" was created!
 
 For more information on how to configure the profiles.yml file,
 please consult the dbt documentation here:
@@ -22,6 +23,6 @@ Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
 
 Happy modeling!
 
-[0m16:05:06.592496 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10819b550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10819b220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10819b460>]}
-[0m16:05:06.592675 [debug] [MainThread]: Flushing usage events
-[0m16:05:07.042516 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m16:37:06.445896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b3ee490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107e40eb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c8deeb0>]}
+[0m16:37:06.446020 [debug] [MainThread]: Flushing usage events
+[0m16:37:06.889042 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
